@@ -1,4 +1,5 @@
 
+
 # Multi Counter Dashboard
 
 A React project demonstrating the use of Custom Hooks for reusable logic.
@@ -22,3 +23,6 @@ A React project demonstrating the use of Custom Hooks for reusable logic.
 npm install
 
 npm start
+=======
+# counter-app
+
