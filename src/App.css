@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    135deg,
+    #898933,
+    #925acd
+  );
+  min-height: 100vh;
+}
+
+.app {
+  padding: 40px;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.logo-icon {
+  width: 70px;
+  height: 70px;
+  background: white;
+  color: #243b55;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo h1 {
+  font-size: 2rem;
+}
+
+.logo p {
+  opacity: 0.8;
+}
+
+.heading {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.counter-grid {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.counter-card {
+  width: 280px;
+  background: rgba(221, 246, 94, 0.959);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0px 8px 25px
+    rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.counter-card:hover {
+  transform: translateY(-8px);
+}
+
+.counter-card h3 {
+  margin-bottom: 15px;
+  color: #9147d2;
+}
+
+.count {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #141e30;
+}
+
+.step {
+  color: #777;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-group button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #660871;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-group button:hover {
+  background: #141e30;
+}
