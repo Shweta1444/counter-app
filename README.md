@@ -21,8 +21,8 @@ A React project demonstrating the use of Custom Hooks for reusable logic.
 ## Run Locally
 
 npm install
-
 npm start
+
 =======
 # counter-app
 
